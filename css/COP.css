@@ -1,0 +1,83 @@
+.custom-list {
+    padding: 26px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-list p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+  }
+  
+  .custom-list p:first-child {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .custom-list p:nth-child(2n) {
+    background-color: #e8e8e8;
+  }
+  
+  .custom-list p::before {
+    content: "•";
+    display: inline-block;
+    margin-right: 5px;
+    color: #999;
+  }
+  
+  .custom-list p a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .custom-list p a:hover {
+    color: #0056b3;
+  }
+  
+  .custom-list1 {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .custom-list1 p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: red;
+  }
+  
+  .centered {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.custom-list2 {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .custom-list2 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .custom-list2 p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+  }
